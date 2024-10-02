@@ -3,5 +3,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  site: "https://mbarnesdev.github.io",
+  base: "martinbarnes.dev"
 });
